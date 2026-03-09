@@ -1,3 +1,5 @@
+import React from 'react';
+
 const BirthdayCard = ({ name }) => (
     <div className="w-full max-w-4xl p-20 bg-white rounded-3xl shadow-2xl border-b-12 border-blue-500 text-center animate-pulse">
         <h1 className="text-4xl font-black text-blue-400 mb-6">🎂 HAPPY BIRTHDAY!</h1>
