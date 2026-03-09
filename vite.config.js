@@ -3,9 +3,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss(),
-  ],
-  base: './', // This is the secret to fixing the "Blank Screen"
+  plugins: [react(), tailwindcss()],
+  // THIS IS THE MOST IMPORTANT LINE FOR DEPLOYMENT
+  base: './', 
 });
